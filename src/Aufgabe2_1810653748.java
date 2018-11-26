@@ -4,13 +4,13 @@ public class Aufgabe2_1810653748
 {
     public static void main (String[]args)
     {
-        int zahl1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Geben Sie bitte eine ganze Zahl ein"));
+        int zahl1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Geben Sie bitte eine ganze Zahl ein")); //Die herausgefundene Zahl in einen INTEGER zu verwandeln, damit man später mit dieser rechnen kann
         int zahl2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Geben Sie bitte eine weitere ganze Zahl ein"));
 
         int versuche = 0; // Versuche von 0 weckgezählt
         if (zahl1 == zahl2)     //wenn die Zahlen gleich sind wird .... ausgegebn
             {
-            System.out.println("Ihre erste Zahl " +zahl1+ "== wie Ihre zweite Zahl" +zahl2); //sagen was die Konsole ausgeben soll
+            System.out.println("Ihre erste Zahl " +zahl1+ " == wie Ihre zweite Zahl" +zahl2); //sagen was die Konsole ausgeben soll
             }
         while (zahl1 != zahl2)  //wenn zahl1 UNGLEICH zahl zwei ist
             {
